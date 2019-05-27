@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.robosoft.discoveryPoC.testScenarios.TestScenarios
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 86.107 s <<< FAILURE! - in com.robosoft.discoveryPoC.testScenarios.TestScenarios
+verifyIfPremiumContentBadgeIsShownTest(com.robosoft.discoveryPoC.testScenarios.TestScenarios)  Time elapsed: 15.769 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Apium-2.local', ip: 'fe80:0:0:0:1069:1678:32bf:7985%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_91'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/nithinshetty/Downloa..., appActivity: com.discovery.discoveryplus..., appPackage: com.discovery.discoveryplus, databaseEnabled: false, desired: {app: /Users/nithinshetty/Downloa..., appActivity: com.discovery.discoveryplus..., appPackage: com.discovery.discoveryplus, deviceName: emulator-5554, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 9, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: e06385e7-5581-4342-becd-8166517f8239
+*** Element info: {Using=id, value=com.discovery.discoveryplus:id/premium_badge}
+	at com.robosoft.discoveryPoC.testScenarios.TestScenarios.verifyIfPremiumContentBadgeIsShownTest(TestScenarios.java:92)
+

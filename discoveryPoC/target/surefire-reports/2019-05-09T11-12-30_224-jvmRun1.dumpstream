@@ -1,0 +1,33 @@
+# Created at 2019-05-09T11:15:44.770
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created at 2019-05-09T11:15:45.263
+Unexpected IOException: 8,1,com.discovery.discoveryplus.appium.testScenarios.TestScenarios,verifyTapOnPortraitVideoForwardTest(com.discovery.discoveryplus.appium.testScenarios.TestScenarios),null,Test case Failed as Video is not Forwarded for 10 secs,null,Test case Failed as Video is not Forwarded for 10 secs,TestScenarios.verifyTapOnPortraitVideoForwardTest:152 Test case Failed as Video is not Forwarded for 10 secs,java.lang.AssertionError: Test case Failed as Video is not Forwarded for 10 secs\000A\0009at com.discovery.discoveryplus.appium.testScenarios.TestScenarios.verifyTapOnPortraitVideoForwardTest(TestScenarios.java:152)\000A
+
+
+# Created at 2019-05-09T11:15:45.264
+Unexpected IOException: 5,1,com.discovery.discoveryplus.appium.testScenarios.TestScenarios,verifyTapOnPortraitVideoRewindTest(com.discovery.discoveryplus.appium.testScenarios.TestScenarios),com.discovery.discoveryplus.appium.testScenarios.TestScenarios,null,null
+
+
+# Created at 2019-05-09T11:16:07.012
+Unexpected IOException: 8,1,com.discovery.discoveryplus.appium.testScenarios.TestScenarios,verifyTapOnPortraitVideoRewindTest(com.discovery.discoveryplus.appium.testScenarios.TestScenarios),null,Test failed Failed as Video is not rewinded for 10 secs,null,Test failed Failed as Video is not rewinded for 10 secs,TestScenarios.verifyTapOnPortraitVideoRewindTest:161 Test failed Failed as Video is not rewinded for 10 secs,java.lang.AssertionError: Test failed Failed as Video is not rewinded for 10 secs\000A\0009at com.discovery.discoveryplus.appium.testScenarios.TestScenarios.verifyTapOnPortraitVideoRewindTest(TestScenarios.java:161)\000A
+
+
+# Created at 2019-05-09T11:16:07.013
+Unexpected IOException: 5,1,com.discovery.discoveryplus.appium.testScenarios.TestScenarios,verifyPortraitSeekBarScrollTest(com.discovery.discoveryplus.appium.testScenarios.TestScenarios),com.discovery.discoveryplus.appium.testScenarios.TestScenarios,null,null
+
+
+# Created at 2019-05-09T11:16:30.693
+Unexpected IOException: 6,1,com.discovery.discoveryplus.appium.testScenarios.TestScenarios,verifyPortraitSeekBarScrollTest(com.discovery.discoveryplus.appium.testScenarios.TestScenarios),null,null,null
+
+
+# Created at 2019-05-09T11:16:30.694
+Unexpected IOException: 5,1,com.discovery.discoveryplus.appium.testScenarios.TestScenarios,verifyOrientationToLandscapeTest(com.discovery.discoveryplus.appium.testScenarios.TestScenarios),com.discovery.discoveryplus.appium.testScenarios.TestScenarios,null,null
+
+

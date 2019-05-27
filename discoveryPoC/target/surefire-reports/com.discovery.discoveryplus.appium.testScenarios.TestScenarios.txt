@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.discovery.discoveryplus.appium.testScenarios.TestScenarios
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 57.157 s - in com.discovery.discoveryplus.appium.testScenarios.TestScenarios

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.discovery.discoveryplus.appium.testScenarios.TestScenarios">
+        <methods>
+          <include name="verifyTapOnLandscapeVideoForwardTest"/>
+          <include name="init"/>
+          <include name="verifyTraditionalLoginTest"/>
+          <include name="verifyLandscapeSeekBarScrollTest"/>
+          <include name="verifyLandscapeVideoPauseTest"/>
+          <include name="verifyPortraitVideoPauseTest"/>
+          <include name="verifyPortraitVideoPlayTest"/>
+          <include name="verifyTapOnPortraitVideoRewindTest"/>
+          <include name="endReport"/>
+          <include name="verifyLandscapeVideoPlayTest"/>
+          <include name="verifyTapOnPortraitVideoForwardTest"/>
+          <include name="getResult"/>
+          <include name="verifyOrientationToLandscapeTest"/>
+          <include name="verifyTapOnLandscapeVideoRewindTest"/>
+          <include name="verifyPortraitSeekBarScrollTest"/>
+        </methods>
+      </class> <!-- com.discovery.discoveryplus.appium.testScenarios.TestScenarios -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,25 @@
+# Created at 2019-05-08T20:04:17.502
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created at 2019-05-08T20:04:19.494
+Unexpected IOException: 6,1,com.discovery.discoveryplus.appium.testScenarios.TestScenarios,verifyPortraitVideoPlayTest(com.discovery.discoveryplus.appium.testScenarios.TestScenarios),null,null,null
+
+
+# Created at 2019-05-08T20:04:19.496
+Unexpected IOException: 5,1,com.discovery.discoveryplus.appium.testScenarios.TestScenarios,verifyPortraitVideoPauseTest(com.discovery.discoveryplus.appium.testScenarios.TestScenarios),com.discovery.discoveryplus.appium.testScenarios.TestScenarios,null,null
+
+
+# Created at 2019-05-08T20:04:47.988
+Unexpected IOException: 8,1,com.discovery.discoveryplus.appium.testScenarios.TestScenarios,verifyPortraitVideoPauseTest(com.discovery.discoveryplus.appium.testScenarios.TestScenarios),null,Test case Failed as not able to pause the video expected [00:18] but found [00:14],null,Test case Failed as not able to pause the video expected [00:18] but found [00:14],TestScenarios.verifyPortraitVideoPauseTest:142 Test case Failed as not able to pause the video expected [00:18] but found [00:14],java.lang.AssertionError: Test case Failed as not able to pause the video expected [00:18] but found [00:14]\000A\0009at com.discovery.discoveryplus.appium.testScenarios.TestScenarios.verifyPortraitVideoPauseTest(TestScenarios.java:142)\000A
+
+
+# Created at 2019-05-08T20:04:47.990
+Unexpected IOException: 5,1,com.discovery.discoveryplus.appium.testScenarios.TestScenarios,verifyTapOnPortraitVideoForwardTest(com.discovery.discoveryplus.appium.testScenarios.TestScenarios),com.discovery.discoveryplus.appium.testScenarios.TestScenarios,null,null
+
+

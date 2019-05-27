@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.discovery.discoveryplus.appium.testScenarios.TestScenarios">
+        <methods>
+          <include name="verifySelectionofEpisodesTabTest"/>
+          <include name="verifyTapOnLandscapeVideoForwardTest"/>
+          <include name="init"/>
+          <include name="verifyTraditionalLoginTest"/>
+          <include name="verifyIfSplashScreenIsShownTest"/>
+          <include name="verifyLandscapeSeekBarScrollTest"/>
+          <include name="verifyLandscapeVideoPauseTest"/>
+          <include name="verifyPortraitVideoPauseTest"/>
+          <include name="verifyPortraitVideoPlayTest"/>
+          <include name="verifyTapOnPortraitVideoRewindTest"/>
+          <include name="endReport"/>
+          <include name="verifyLandscapeVideoPlayTest"/>
+          <include name="verifyTapOnPortraitVideoForwardTest"/>
+          <include name="getResult"/>
+          <include name="verifyOrientationToLandscapeTest"/>
+          <include name="verifyTapOnLandscapeVideoRewindTest"/>
+          <include name="verifyPortraitSeekBarScrollTest"/>
+          <include name="verifySelectionOfSeasonsTest"/>
+          <include name="verifySelectionShortsTabTest"/>
+        </methods>
+      </class> <!-- com.discovery.discoveryplus.appium.testScenarios.TestScenarios -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

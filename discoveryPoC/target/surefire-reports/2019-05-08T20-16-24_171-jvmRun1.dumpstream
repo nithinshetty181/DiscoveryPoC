@@ -1,0 +1,25 @@
+# Created at 2019-05-08T20:18:08.044
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created at 2019-05-08T20:18:22.803
+Unexpected IOException: 6,1,com.discovery.discoveryplus.appium.testScenarios.TestScenarios,verifyPortraitVideoPlayTest(com.discovery.discoveryplus.appium.testScenarios.TestScenarios),null,null,null
+
+
+# Created at 2019-05-08T20:18:22.804
+Unexpected IOException: 5,1,com.discovery.discoveryplus.appium.testScenarios.TestScenarios,verifyPortraitVideoPauseTest(com.discovery.discoveryplus.appium.testScenarios.TestScenarios),com.discovery.discoveryplus.appium.testScenarios.TestScenarios,null,null
+
+
+# Created at 2019-05-08T20:18:52.119
+Unexpected IOException: 6,1,com.discovery.discoveryplus.appium.testScenarios.TestScenarios,verifyPortraitVideoPauseTest(com.discovery.discoveryplus.appium.testScenarios.TestScenarios),null,null,null
+
+
+# Created at 2019-05-08T20:18:52.132
+Unexpected IOException: 5,1,com.discovery.discoveryplus.appium.testScenarios.TestScenarios,verifyTapOnPortraitVideoForwardTest(com.discovery.discoveryplus.appium.testScenarios.TestScenarios),com.discovery.discoveryplus.appium.testScenarios.TestScenarios,null,null
+
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="46608" started-at="2019-05-09T13:18:23Z" finished-at="2019-05-09T13:19:10Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="46608" started-at="2019-05-09T13:18:23Z" finished-at="2019-05-09T13:19:10Z">
+      <class name="com.discovery.discoveryplus.appium.testScenarios.TestScenarios">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.discovery.discoveryplus.appium.testScenarios.TestScenarios@77caeb3e]" name="init" is-config="true" duration-ms="14772" started-at="2019-05-09T13:18:23Z" finished-at="2019-05-09T13:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyIfSplashScreenIsShownTest()[pri:1, instance:com.discovery.discoveryplus.appium.testScenarios.TestScenarios@77caeb3e]" name="verifyIfSplashScreenIsShownTest" duration-ms="302" started-at="2019-05-09T13:18:38Z" finished-at="2019-05-09T13:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfSplashScreenIsShownTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.discovery.discoveryplus.appium.testScenarios.TestScenarios@77caeb3e]" name="getResult" is-config="true" duration-ms="3" started-at="2019-05-09T13:18:39Z" finished-at="2019-05-09T13:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIfSplashScreenIsShownTest status=SUCCESS method=TestScenarios.verifyIfSplashScreenIsShownTest()[pri:1, instance:com.discovery.discoveryplus.appium.testScenarios.TestScenarios@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifySelectionOfSeasonsTest()[pri:2, instance:com.discovery.discoveryplus.appium.testScenarios.TestScenarios@77caeb3e]" name="verifySelectionOfSeasonsTest" duration-ms="10599" started-at="2019-05-09T13:18:39Z" finished-at="2019-05-09T13:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectionOfSeasonsTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.discovery.discoveryplus.appium.testScenarios.TestScenarios@77caeb3e]" name="getResult" is-config="true" duration-ms="1" started-at="2019-05-09T13:18:49Z" finished-at="2019-05-09T13:18:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySelectionOfSeasonsTest status=SUCCESS method=TestScenarios.verifySelectionOfSeasonsTest()[pri:2, instance:com.discovery.discoveryplus.appium.testScenarios.TestScenarios@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifySelectionofEpisodesTabTest()[pri:3, instance:com.discovery.discoveryplus.appium.testScenarios.TestScenarios@77caeb3e]" name="verifySelectionofEpisodesTabTest" duration-ms="8087" started-at="2019-05-09T13:18:49Z" finished-at="2019-05-09T13:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectionofEpisodesTabTest -->
+        <test-method status="PASS" signature="verifySelectionShortsTabTest()[pri:4, instance:com.discovery.discoveryplus.appium.testScenarios.TestScenarios@77caeb3e]" name="verifySelectionShortsTabTest" duration-ms="11624" started-at="2019-05-09T13:18:57Z" finished-at="2019-05-09T13:19:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectionShortsTabTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.discovery.discoveryplus.appium.testScenarios.TestScenarios@77caeb3e]" name="getResult" is-config="true" duration-ms="0" started-at="2019-05-09T13:18:57Z" finished-at="2019-05-09T13:18:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySelectionofEpisodesTabTest status=SUCCESS method=TestScenarios.verifySelectionofEpisodesTabTest()[pri:3, instance:com.discovery.discoveryplus.appium.testScenarios.TestScenarios@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.discovery.discoveryplus.appium.testScenarios.TestScenarios@77caeb3e]" name="getResult" is-config="true" duration-ms="0" started-at="2019-05-09T13:19:09Z" finished-at="2019-05-09T13:19:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySelectionShortsTabTest status=SUCCESS method=TestScenarios.verifySelectionShortsTabTest()[pri:4, instance:com.discovery.discoveryplus.appium.testScenarios.TestScenarios@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.discovery.discoveryplus.appium.testScenarios.TestScenarios@77caeb3e]" name="endReport" is-config="true" duration-ms="1175" started-at="2019-05-09T13:19:09Z" finished-at="2019-05-09T13:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.discovery.discoveryplus.appium.testScenarios.TestScenarios -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
